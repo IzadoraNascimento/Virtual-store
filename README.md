@@ -1,34 +1,66 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Índice
 
-## Getting Started
+- [Visão geral](#visão-geral)
+   - [Descrição](#descrição)
+   - [Captura de tela](#captura-de-tela)
+- [Meu processo](#meu-processo)
+   - [Construído com](construiido-com)
+   - [O que aprendi](#o-que-aprendi)
+   - [Desenvolvimento contínuo](desenvolvimento-continuo)
+   - [Recursos úteis](#useful-resources)
+- [Autor](#autor)
 
-First, run the development server:
+## Visão geral
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+### Descrição
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Os usuários devem ser capazes de:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Neste projeto os usuário podem visualizar os produtos de uma loja virtual e ir adicionando ao carrinho. Da para visualizar os detalhes de cada produto separadamente, e na página do Carrinho é possível ir acrescentando ou diminuindo a quantidade de itens, o valor total do carrinho aparece na tela também. 
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Este projeto foi desenvolvido com a combinação poderosa do framework React e Next.js, aprimorados com o uso do Bootstrap para design responsivo e a adição de TypeScript para uma tipagem estática mais robusta.
 
-## Learn More
+### Captura de tela
 
-To learn more about Next.js, take a look at the following resources:
+![](https://github.com/IzadoraNascimento/Virtual-store/blob/master/src/assets/Desktop.initial.png)
+![](https://github.com/IzadoraNascimento/Virtual-store/blob/master/src/assets/Mobile.initial.png)
+![](https://github.com/IzadoraNascimento/Virtual-store/blob/master/src/assets/Mobile.products.png)
+![](https://github.com/IzadoraNascimento/Virtual-store/blob/master/src/assets/products.png)
+![](https://github.com/IzadoraNascimento/Virtual-store/blob/master/src/assets/product.details.png)
+![](https://github.com/IzadoraNascimento/Virtual-store/blob/master/src/assets/cart.png)
+![](https://github.com/IzadoraNascimento/Virtual-store/blob/master/src/assets/Mobile.cart.png)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Meu processo
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Para a construção do projeto, adotei a abordagem do método Dividir para Conquistar, o que me permitiu uma organização mais eficiente e um melhor controle de todos os processos e etapas envolvidas. Todas as tarefas foram devidamente registradas e acompanhadas através da plataforma Notion.
 
-## Deploy on Vercel
+![Notion](https://github.com/IzadoraNascimento/Virtual-store/blob/master/src/assets/Notion.png)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Link para acessar o site - 
+[Virtual Store](https://virtual-store-sigma.vercel.app/)
+
+### Construído com
+
+- Next.js
+- TypeScript
+- Booststrap
+- [React](https://reactjs.org/) - Biblioteca JS
+
+### O que eu aprendi
+
+1. Integração do Bootstrap: para garantir uma experiência de usuário moderna e responsiva, utilizamos o framework Bootstrap para estilização e layout. Isso permitiu criar componentes visualmente atraentes de maneira eficiente, alinhados com as melhores práticas de design.
+2. TypeScript: como linguagem de programação principal para esse projeto. A vantagem do TypeScript é a adição de tipagem estática, o que auxilia na detecção antecipada de erros e na melhoria da legibilidade do código.
+3. Simulação de API: para aprimorar o entendimento sobre o processo de interação entre frontend e backend, implementei uma simulação de API. Isso permitiu realizar requisições e manipular dados, criando uma experiência semelhante à interação com um banco de dados real. Essa prática foi fundamental para desenvolver habilidades essenciais no tratamento de dados e comunicação entre diferentes partes do sistema.
+
+### Desenvolvimento contínuo
+
+Desenvolver um novo projeto somente com TypeScript.  
+
+### Recursos úteis
+
+- [OneBitCode](https://cursos.onebitcode.com/) - Isso me ajudou, pois consegui aplicar o uso do Next.js. 
+
+## Autor
+
+- LinkedIn - [Izadora Santos Nascimento](https://www.linkedin.com/in/izadorasantosn/)
